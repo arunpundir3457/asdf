@@ -1,0 +1,41 @@
+#one{
+
+display: flex; 
+justify-content: space-around;
+
+align-items: center;
+height: 350px;
+width: 100%;
+
+
+}
+#three {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    scale: 100%;
+    
+}
+#three :hover
+{
+
+scale: 80%;
+
+
+}
+#one :hover{
+    scale: 90%;
+}
+#two :hover{
+    scale: 80%;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    color: aliceblue;
+    text-shadow: 0px 0px 10px;
+}
